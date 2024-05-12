@@ -1,5 +1,8 @@
 
-# HƯỚNG DẪN CÀI ĐẶT THƯ VIỆN VÀ CHẠY TOOL
+# HƯỚNG DẪN CÀI ĐẶT THƯ VIỆN VÀ CHẠY TOOL 1
+
+## Mô tả công cụ
+Là một công cụ giúp kiểm thử web-server, sử dụng các phương thức tấn công phổ biến như: tấn công từ điển, sql-injection, quét cổng dịch vụ...; tích hợp các công cụ mạnh mẽ như sqlmap, hydra, nmap...
 
 ## Cài đặt các công cụ tích hợp
 
