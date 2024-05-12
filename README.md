@@ -25,11 +25,6 @@ Cài đặt thư viện flask và beautifulsoup4:
   pip install Flask beautifulsoup4 
 ```
 
-Start the server
-
-```bash
-  npm run start
-```
 ## Chạy tool
 
 Tại thư mục tool-1, chạy file sau:
