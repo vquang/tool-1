@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    /> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="icons/css/all.css">
+    <title>Tool Pentest</title>
+  </head>
+  <body>
+    <div class="header">
+        <div class="h-left">
+            <input id="ip" type="text" placeholder="ip address..." />
+            <button onclick="attackApi()">Attack</button>
+        </div>
+        <div class="h-right"><button onclick="screenApi()">Screen</button></div>
+    </div>
+    <div class="container">
+        <div class="c-left">
+            <div id="running" style="display: none;"></div>
+            <div class="content" style="display: none;">
+              <div class="item f-item" style="display: none;">
+                <h3>form scanned: <i class="fa-solid fa-triangle-exclamation" style="color: #00997a;"></i></h3>
+                <div class="f-content item-content" style="width: 100%;">
+                </div>
+              </div>
+              <div class="item a-item" style="display: none;">
+                <h3>account web scanned: <i class="fa-solid fa-triangle-exclamation" style="color: #ff0066;"></i></h3>
+                <div class="a-content item-content" style="width: 100%;">
+                </div>
+              </div>
+              <div class="item d-item" style="display: none;">
+                <h3>database scanned: <i class="fa-solid fa-triangle-exclamation" style="color: #e6e600;"></i></h3>
+                <div class="d-content item-content" style="width: 100%;">
+                  
+                </div>
+              </div>
+              <div class="item p-item" style="display: none;">
+                <h3>port scanned: <i class="fa-solid fa-triangle-exclamation" style="color: #00997a;"></i></h3>
+                <div class="p-content item-content" style="width: 100%;">
+                </div>
+              </div>
+              <div class="item ssh-item" style="display: none;">
+                <h3>account server scanned: <i class="fa-solid fa-triangle-exclamation" style="color: #ff0066;"></i></h3>
+                <div class="ssh-content item-content" style="width: 100%;">
+                </div>
+              </div>
+              <div class="item table-item" style="display: none;">
+                <h3>table scanned: <i class="fa-solid fa-triangle-exclamation" style="color: #ff0066;"></i></h3>
+                <div class="table-content item-content" style="width: 100%;">
+                </div>
+              </div>
+              <div class="item detail-item" style="display: none;">
+                <h3>table scanned: <i class="fa-solid fa-triangle-exclamation" style="color: #ff0066;"></i></h3>
+                <div class="detail-content item-content" style="width: 100%;">
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="c-right">
+            <button onclick="accountWebApi()">Account Web</button>
+            <button onclick="dbsApi()">Database</button>
+            <button onclick="portsApi()">Opening Port</button>
+            <button onclick="accountSshApi()">Account Server</button>
+            <button onclick="window.print();">Report</button>
+        </div>
+    </div>
+  </body>
+
+  <script src="./api.js">
+  </script>
+</html>

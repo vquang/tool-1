@@ -1,0 +1,23 @@
+HTTP request [#1]:
+POST /login HTTP/1.1
+Cache-control: no-cache
+User-agent: sqlmap/1.6.4#stable (https://sqlmap.org)
+Host: 192.168.100.164
+Accept: */*
+Accept-encoding: gzip,deflate
+Content-type: application/x-www-form-urlencoded; charset=utf-8
+Content-length: 27
+Connection: close
+
+username=test&password=test
+
+HTTP redirect [#1] (302 ):
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 11 Apr 2024 16:37:24 GMT
+Content-length: 0
+Location: http://192.168.100.164/login
+Connection: close
+Set-cookie: JSESSIONID=22AF90B9B1F65F97194ABE441D0CA0D2; Path=/; HttpOnly
+
+############################################################################
+

