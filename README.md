@@ -6,10 +6,10 @@ Là một công cụ giúp kiểm thử web-server, sử dụng các phương th
 
 ## Cài đặt các công cụ tích hợp
 
-Cài đặt công cụ: nmap, hydra, sqlmap, sshpass, curl:
+Cài đặt công cụ: nmap, hydra, sqlmap, sshpass, curl, python3-pip:
 
 ```bash
-  sudo apt install nmap hydra sqlmap sshpass curl
+  sudo apt install nmap hydra sqlmap sshpass curl python3-pip
 ```
 
 Cài đặt framework nodejs (nếu câu lệnh **npm install 20** báo không tìm thấy npm thì restart lại máy rồi chạy lại câu lệnh đó):
