@@ -12,7 +12,7 @@ Cài đặt công cụ: nmap, hydra, sqlmap, sshpass, curl:
   sudo apt install nmap hydra sqlmap sshpass curl
 ```
 
-Cài đặt framework nodejs:
+Cài đặt framework nodejs (nếu câu lệnh **npm install 20** báo không tìm thấy npm thì restart lại máy rồi chạy lại câu lệnh đó):
 
 ```bash
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
