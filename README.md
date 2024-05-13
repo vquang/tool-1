@@ -6,10 +6,10 @@ Là một công cụ giúp kiểm thử web-server, sử dụng các phương th
 
 ## Cài đặt các công cụ tích hợp
 
-Cài đặt công cụ: nmap, hydra, sqlmap, sshpass:
+Cài đặt công cụ: nmap, hydra, sqlmap, sshpass, curl:
 
 ```bash
-  sudo apt install nmap hydra sqlmap sshpass
+  sudo apt install nmap hydra sqlmap sshpass curl
 ```
 
 Cài đặt framework nodejs:
